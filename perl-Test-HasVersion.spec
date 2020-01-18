@@ -1,6 +1,6 @@
 Name:           perl-Test-HasVersion
 Version:        0.012
-Release:        6.1%{?dist}
+Release:        7%{?dist}
 Summary:        Check Perl modules have version numbers
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -52,6 +52,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.012-7
+- Mass rebuild 2013-12-27
+
 * Mon Aug 20 2012 Daniel Mach <dmach@redhat.com> - 0.012-6.1
 - Rebuild for perl 5.16
 
